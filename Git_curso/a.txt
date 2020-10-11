@@ -1,4 +1,6 @@
 git status
 git add
 git commit -m ""
-owo
+git log
+git push origin main
+git checkout main/primeros 6 de commit
