@@ -7,5 +7,5 @@ git checkout main/primeros 6 de commit
 git checkout -b <nombre rama nueva>
 git push origin <nombre rama nueva>
 git checkout <rama>
-
+git pull origin <rama>
 Intento de nuevo commit
