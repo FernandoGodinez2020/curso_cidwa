@@ -1,6 +1,11 @@
 git status
-git add
+git add <dir nombre de los archivos>
 git commit -m ""
 git log
 git push origin main
 git checkout main/primeros 6 de commit
+git checkout -b <nombre rama nueva>
+git push origin <nombre rama nueva>
+git checkout <rama>
+
+Intento de nuevo commit
