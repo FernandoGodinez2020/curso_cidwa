@@ -1,4 +1,4 @@
-git status
+git status --> Sirve para checar si estas en la rama main o los commits que hay
 git add <dir nombre de los archivos>
 git commit -m ""
 git log
