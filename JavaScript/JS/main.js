@@ -54,9 +54,49 @@ if(1 == 2){
     console.log("Es verdadero")
 }
 */
-
+/*
 for(let i = 1;i <= 10;i++) {
     for(let j = 1;j <= 10;j++){
-        console.log(i+"*"+j+"="+(i*j))
+        console.log(i+"*"+j+"="(i*j))
     }
 }
+*/
+/*
+let array = [9 ,2, 4, 1, 5, 6, 3, 8, 7, 10]
+
+for(let i=0;i<array.length;i++){
+    for(let j=0;j<array.length;j++){
+        if(array[j]<array[i]){
+            let aux=array[i];
+
+            array[i] = array[j];
+            array[j] = aux
+
+            console.log(array)
+        }
+    }
+}
+/*
+for(let i=0;i < array.length; i++){
+    console.log(array[i])
+}
+
+for(let iterador of array){
+    console(iterador)
+}
+*/
+/*
+let f=5;
+let factorial=1
+for(i=1; i<=f; i++){ //aqui indicamos la variable i con un valor inicial a 1 y decimos que si es menor o iguala la variable F entonces se incrementa el vlaor de la variable i
+    factorial*=i // acá le indicamos a JS que multiplique la variable declarada por 
+}
+console.log(factorial)
+
+*/
+
+function sumar(numeroUno,numeroDos) {
+    console.log(numeroDos + numeroUno)
+}
+
+sumar(40,5);
